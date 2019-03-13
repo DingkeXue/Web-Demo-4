@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>宠物狗</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand"><strong>狗狗</strong>网</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-navbar">
+                <ul class="nav navbar-nav main">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">狗粮</a></li>
+                    <li><a href="#">推荐</a></li>
+                </ul>
+                <div class="collect hidden-xs">
+                    <a href="#" class="btn btn-primary navbar-btn navbar-right">收藏</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right login">
+                    <li data-toggle="modal" data-target="#myModal"><a href="#">登录</a></li>
+                    <li data-toggle="modal" data-target="#modal-sign"><a href="#">注册</a></li>
+                </ul>
+                <form class="navbar-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control input" placeholder="搜索">
+                        <button type="button" class="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container login-sign">
+        <!--modal登录-->
+        <div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle" data-remote="login.html">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                </div>
+            </div>
+        </div>
+        <!--modal注册-->
+        <div class="modal fade" id="modal-sign" tabindex="-1" aria-hidden="true" aria-labelledby="modal-title" data-remote="signup.html">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="carousel slide" id="myCarousel" data-ride="carousel" data-pause="false">
+            <!--轮播指标-->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!--轮播图片-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/dog05.jpg" alt="dog">
+                </div>
+                <div class="item">
+                    <img src="img/dog06.jpg" alt="dog">
+                </div>
+                <div class="item">
+                    <img src="img/dog07.jpg" alt="dog">
+                </div>
+            </div>
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+    <div class="container service">
+        <div class="title">
+            <strong class="strong">OUR SERVICE</strong>
+            <h2>我们的服务</h2>
+        </div>
+        <div class="content row">
+            <ul class="row" id="offset">
+                <li class="col-md-3">
+                    <a href="#">
+                        <header class="subtitle">
+                            <h1>01</h1>
+                            <h3>专业团队</h3>
+                        </header>
+                        <div class="info">
+                            <strong>一流专业团队</strong>
+                            <p>
+                                聘请国内外顶级狗狗专家，不断创新、突破，只为带给你一个更好的陪伴！
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <header class="subtitle">
+                            <h1>02</h1>
+                            <h3>领先技术</h3>
+                        </header>
+                        <div class="info">
+                            <strong>国际一流技术</strong>
+                            <p>
+                                本公司专注狗狗几十年，用最新做好的技术只为给你最好的礼物！
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <header class="subtitle">
+                            <h1>03</h1>
+                            <h3>高贵血统</h3>
+                        </header>
+                        <div class="info">
+                            <strong>一流专业团队</strong>
+                            <p>
+                                本公司的狗狗有着纯正的血统，每只狗狗的诞生都严格管理，祖上三代皆可查！
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="col-md-3">
+                    <a href="#">
+                        <header class="subtitle">
+                            <h1>04</h1>
+                            <h3>售后保障</h3>
+                        </header>
+                        <div class="info">
+                            <strong>国际一流技术</strong>
+                            <p>
+                                我们拥有国内做好的售后服务，解决您的后顾之忧！
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="consumer">
+        <div class="title">
+            <strong class="strong">OUR CONSUMERS</strong>
+            <h2>客户展示</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 large">
+                <img src="img/timg.jpg" alt="dog">
+                <a href="#">
+                    <div class="mask">
+                        <h3>了解更多</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 large">
+                <div class="row">
+                    <div class="col-md-6 col-xs-6 item">
+                        <img src="img/timg02.jpg" alt="dog">
+                        <a href="#">
+                            <div class="mask">
+                                <h3>了解更多</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xs-6 item">
+                        <img src="img/timg03.jpg" alt="dog">
+                        <a href="#">
+                            <div class="mask">
+                                <h3>了解更多</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xs-6 item">
+                        <img src="img/timg04.jpg" alt="dog">
+                        <a href="#">
+                            <div class="mask">
+                                <h3>了解更多</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-xs-6 item">
+                        <img src="img/timg05.jpg" alt="dog">
+                        <a href="#">
+                            <div class="mask">
+                                <h3>了解更多</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 large">
+                <img src="img/time02.jpg" alt="dog">
+                <a href="#">
+                    <div class="mask">
+                        <h3>了解更多</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="news container">
+        <div class="title">
+            <strong class="strong">ABOUT DOG</strong>
+            <h2>关于狗狗</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-xs-6 new">
+                <img src="img/news-01.jpg" alt="dog">
+                <a href="#">
+                    <div class="mask">
+                        <h3>狗狗种类</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6 new">
+                <img src="img/news-04.jpg" alt="dog">
+                <a href="#">
+                    <div class="mask">
+                        <h3>狗狗健康</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6 new">
+                <img src="img/news-03.jpg" alt="dog">
+                <a href="#">
+                    <div class="mask">
+                        <h3>狗狗推荐</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 col-xs-6 new">
+                <img src="img/news-02.jpg" alt="dog">
+                <a href="#">
+                    <div class="mask">
+                        <h3>狗狗推荐</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="advertise">
+        <h2>狗狗网，只为狗狗</h2>
+        <div class="info">
+            <h3>专注狗狗健康几十年，只为把最好的给您</h3>
+            <h4>
+                选择我们，您就是选择最长久、最健康的陪伴，让健康狗狗陪伴您每一天！
+            </h4>
+        </div>
+    </div>
+    <footer>
+        <p>
+            Bootstrap响应式布局，版权归@xue所有，如有侵权，请联系我！
+        </p>
+    </footer>
+</body>
+</html>

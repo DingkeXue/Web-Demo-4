@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+</head>
+<body>
+<!--注册页-->
+<div class="modal-header">
+    <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="modal-title" class="modal-title">注册</h3>
+</div>
+<div class="modal-body">
+    <form id="form-demo">
+        <div class="form-group">
+            <label for="newName">用户名</label>
+            <input required class="form-control" type="text" id="newName" placeholder="手机号/昵称">
+        </div>
+
+        <div class="form-group">
+            <label for="newPassword">密码</label>
+            <input required class="form-control" type="password" id="newPassword">
+        </div>
+        <div class="form-group">
+            <label for="sure">确认密码</label>
+            <input required class="form-control" type="password" id="sure">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">注册</button>
+            <button class="btn btn-warning" data-dismiss="modal">取消</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
